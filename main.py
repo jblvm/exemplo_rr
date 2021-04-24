@@ -12,3 +12,4 @@ calc_all(a,b)"""
 
 print(rad(a,b))
 print(pot(a,b))
+print(pot(a,b)*rad(a,b))

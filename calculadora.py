@@ -11,7 +11,7 @@ def dividir(a,b):
     return a/b
 
 def rad(a,b):
-    return a**(1/b)
+    return a**(1/b-b)
     
 def pot(a,b):
     return a**b

@@ -10,6 +10,9 @@ def multiplicar(a,b):
 def dividir(a,b):
     return a/b
 
+def pot(a,b):
+    return a**b
+
 def calc_all(a,b):
     print(somar(a,b))
     print(subtrair(a,b))

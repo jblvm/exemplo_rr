@@ -1,4 +1,4 @@
-from calculadora import somar, subtrair, multiplicar, dividir, calc_all, rad
+from calculadora import somar, subtrair, multiplicar, dividir, calc_all, rad, pot
 
 a = int(input("Insira o número a:"))
 b = int(input("Insira o número b:"))
@@ -11,3 +11,4 @@ print(f'Divisão {a} e {b}: {dividir(a, b):.3f}')
 calc_all(a,b)"""
 
 print(rad(a,b))
+print(pot(a,b))
